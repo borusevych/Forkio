@@ -1,0 +1,32 @@
+@mixin center(){
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@mixin primeryText() {
+    font-family: Montserrat;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+@mixin width-margin {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+}
+
+@mixin button {
+    background-color: $text-color;
+    color: white;
+    border: 0;
+}
+
+@mixin button-hover {
+    background-color: #ffffff;
+    color: $text-color;
+}
+
+@mixin notebook {
+    width: 1200px;
+    margin: auto;
+}

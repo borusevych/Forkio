@@ -1,0 +1,107 @@
+.people{
+    @include width-margin;
+    // height: 1631px;
+    box-sizing: border-box;
+    background-image: url("../img/people/background.png");
+    background-position: -1350px ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: #645b7b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    h1{
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: white;   
+        margin: 0;    
+        padding-top: 50px; 
+        margin-bottom: 30px;
+        height: fit-content;
+        max-width: 280px;
+    }
+    &-wrapper{
+        display: grid;
+        grid-template-columns: 1, auto;
+        &__line{
+        width: 245px;
+        height: 2px;
+        background-color: #645766;   
+        margin-top: 10px;         
+        }
+    }
+    &-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 32px;
+        &_smashing{
+            max-width: 270px;
+        }
+        &_codrops{
+            max-width: 266px;
+        }
+        &_w{
+            max-width: 260px;
+        }
+        &_pixel{
+            max-width: 271px;
+        }
+        &_cb{
+            max-width: 285px;
+        }
+        img{
+            padding-bottom: 30px;
+        }
+        p{
+            font-family: Lato;
+            font-size: 16px;
+            font-style: italic;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: white;  
+            margin: 0;      
+        }
+    }
+    &__description{
+        font-family: Lato;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        letter-spacing: 0px;
+        text-align: center;
+        color: #A291A5;  
+        width: 251px;   
+        position: relative;  
+        height: fit-content;   
+    }
+    &__line{
+        width: 245px;
+        height: 2px;
+        background-color: #645766;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    
+}
+.people__description_tab{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #A291A5;  
+    position: relative; 
+    margin: 0 30px 0 30px; 
+}
